@@ -1,7 +1,7 @@
 import { ArrowTopRightOnSquareIcon, ArrowUpIcon, BellIcon, ChartBarIcon, CreditCardIcon, EnvelopeIcon, HomeIcon, ShieldCheckIcon } from '@heroicons/react/24/solid'
 const Sidebar = () => {
   return (
-    <div className='w-[50px] md:w-[80px] bg-slate-800 h-screen py-6 text-slate-300'>
+    <div className='w-[30px] md:w-[80px] bg-slate-800 h-screen py-6 text-slate-300'>
       <div className='fixed left-3 md:left-5 top-4'>
         <HomeIcon className='w-8 mx-auto hover:text-slate-200 cursor-pointer' />
       </div>

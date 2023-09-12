@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-color: #1e293b;
+}
+.sidebar-icon {
+    @apply w-6 md:w-8 mx-auto hover:text-slate-200 cursor-pointer bg-slate-500 p-1 rounded my-2 hover:bg-slate-600;
+}
